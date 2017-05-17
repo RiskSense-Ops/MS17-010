@@ -1,5 +1,5 @@
 # MS17-010
-As all of our research is now in Metasploit master repository, there was no reason to confuse everyone by keeping this repo open as there were two versions of everything and and due to overwhelming popularity support became a nightmare. **Do not make support issues here, they will not be answered.**
+As all of our research is now in Metasploit master repository, there was no reason to confuse everyone by keeping this repo open as there were two versions of everything and and due to overwhelming popularity support became a nightmare as this is a side project. **Do not make support issues here, they will not be answered.**
 
 Those searching for the scanners:
 
