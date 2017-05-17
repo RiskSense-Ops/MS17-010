@@ -10,6 +10,6 @@ Those searching for EternalBlue:
 
 - https://www.rapid7.com/db/modules/exploit/windows/smb/ms17_010_eternalblue
 
-This version disproved the robustness of most existing IDS rules (at the time). Those looking to make IDS rules should look at the final SMB1 Trans2 packet. These contain fixed offsets, however it may be possible to use other addresses. However, the hole in which those offsets lie must always be laid out in a similar manner. There is also the pattern of several SMB2 groom requests will null headers and shellcode.
+This version disproved the robustness of most existing IDS rules (at the time). Those looking to make IDS rules should look at the final SMB1 Trans2 packet. These contain fixed offsets, however it may be possible to use other addresses. However, the hole in which those offsets lie must always be laid out in a similar manner. There are also numerous other patterns, such as several SMB2 groom requests with null headers and shellcode, as well as the "free hole" session setups.
 
 Windows kernel shellcode will be in Metasploit as well as submitted to exploit-db when x86 version is completed.
