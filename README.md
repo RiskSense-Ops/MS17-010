@@ -10,4 +10,4 @@ Those searching for the stripped down EternalBlue:
 
 - https://www.rapid7.com/db/modules/exploit/windows/smb/ms17_010_eternalblue
 
-Shellcode will be submitted to exploit-db when it is completed.
+Windows kernel shellcode will be in Metasploit as well as submitted to exploit-db when it is completed.
